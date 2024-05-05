@@ -1,0 +1,12 @@
+{
+  "name": "sago",
+  "version": "0.1.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.4.5"
+  },
+  "scripts": {
+    "test": "tsc -p src/tsconfig.json && node lib/index.js"
+  }
+}
